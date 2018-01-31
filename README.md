@@ -63,6 +63,11 @@ expect( reducer_chain_4(5, {}) ).toBe(5)
       * disallows the "composed" reducer to be used for initialization
         * `state` cannot be `undefined`
 
+* [https://github.com/acdlite/reduce-reducers](https://github.com/acdlite/reduce-reducers/blob/master/src/index.js)
+  * similar methodology to `@micro-js/compose-reducers`
+    * makes clever use of `Array.reduce()` to iterate through the reducers in a loop
+      * doesn't use functional composition
+
 #### Legal:
 
 * copyright: [Warren Bank](https://github.com/warren-bank)
