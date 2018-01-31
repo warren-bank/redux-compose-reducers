@@ -1,0 +1,27 @@
+{
+  "name": "@warren-bank/redux-compose-reducers",
+  "version": "1.0.0",
+  "description": "chains together a series of reducer functions through functional composition",
+  "main": "./index.js",
+  "browser": "./browser-build/dist/compose_reducers.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "redux": "*"
+  },
+  "scripts": {
+    "test": "cd tests && npm run test",
+    "build": "cd browser-build && npm run build",
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "author": {
+    "name": "Warren R. Bank",
+    "email": "warren.r.bank@gmail.com",
+    "url": "https://github.com/warren-bank"
+  },
+  "license": "GPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/warren-bank/redux-compose-reducers"
+  }
+}
